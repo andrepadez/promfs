@@ -1,0 +1,29 @@
+{
+  "name": "promfs",
+  "version": "1.0.0",
+  "description": "promisified graceful-fs with some extra sugar",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gaston test -r node -s tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andrepadez/promfs.git"
+  },
+  "keywords": [
+    "fs",
+    "async",
+    "promises"
+  ],
+  "author": "andre.padez@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrepadez/promfs/issues"
+  },
+  "homepage": "https://github.com/andrepadez/promfs#readme",
+  "dependencies": {
+    "bluebird": "^3.3.3",
+    "graceful-fs": "^4.1.3",
+    "mkdirp": "^0.5.1"
+  }
+}
